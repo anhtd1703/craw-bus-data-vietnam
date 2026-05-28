@@ -3,11 +3,11 @@ import os
 from datetime import datetime, timedelta
 
 # 1. CẤU HÌNH THÔNG SỐ CHẠY XE
-ROUTE_ID = "R_01"          # Khớp với route_id trong file routes.txt
+ROUTE_ID = "R_26"          # Khớp với route_id trong file routes.txt
 SERVICE_ID = "SV_DAILY"    # Khớp với service_id trong file calendar.txt
 
 START_TIME = "05:00"       # Giờ mở bến
-END_TIME = "22:00"         # Giờ đóng bến
+END_TIME = "22:30"         # Giờ đóng bến
 FREQUENCY_MINUTES = 10     # Tần suất: 10 phút/chuyến
 
 OUTPUT_FILE = "./HaNoi_Bus_GTFS/trips.txt"
